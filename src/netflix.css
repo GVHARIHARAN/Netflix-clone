@@ -1,0 +1,480 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(netback.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100%;
+    padding: 10px 8%;
+
+}
+
+.home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    margin-top: 100px;
+    transform: translate(-50%, -50%);
+}
+
+.homeh1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.homeh5 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.logonet {
+    cursor: pointer;
+}
+
+.navbtn {
+    outline: 0;
+    padding: 6px;
+    color: white;
+    margin-left: 10px;
+    background-color: #db0001;
+    border: none;
+    border-radius: 4px;
+    /* font-size: 10px; */
+}
+
+.navbtn1 {
+    padding: 4px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    /* font-size: 10px; */
+}
+
+.hemail {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    padding: 10px;
+    width: 380px;
+    border: none;
+
+}
+
+.hemail:focus {
+    outline: none;
+    border: 1px solid white;
+}
+
+.hemail::placeholder {
+    color: white;
+}
+
+.logor {
+
+    display: flex;
+
+}
+
+
+.logoc1 {
+    justify-items: end;
+}
+
+.hbtn {
+    width: 120px;
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: #db0001;
+
+}
+
+
+.imgfre {
+    height: 250px;
+    width: 200px;
+    padding: 5px;
+}
+
+.imgte {
+    margin-left: 10px;
+    position: absolute;
+    top: 1;
+    left: 1;
+    right: 1;
+    bottom: 1;
+    z-index: 1;
+    /* overflow: hidden; */
+}
+
+
+.wrapper::before {
+    left: 0;
+    background: url();
+}
+
+.wrapper::after {
+    right: 0;
+    background: url();
+}
+
+.wrapper:hover .silde {
+    animation-play-state: paused;
+}
+
+.silde a {
+    display: none;
+}
+
+.silde img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.silde img {
+    height: 250px;
+    width: 200px;
+    margin: 10px;
+}
+
+.textsy {
+    font-size: 200px;
+}
+
+.textsy1::after {
+    right: 0;
+    font-size: 200px;
+}
+
+.topr {
+    display: flex;
+
+}
+
+.topc {
+
+    overflow: hidden;
+}
+
+.topcon {
+    background: black;
+}
+
+.toph1 {
+    color: white;
+}
+
+
+/* features */
+.features {
+    color: white;
+    background-color: black;
+
+}
+
+.fea {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+/* .text-col {
+    margin-left: 20px;
+     background: linear-gradient(rgb(20, 22, 55), rgb(48, 22, 52));
+     height: 250px;
+   
+   
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+} */
+.feacol {
+    position: relative;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    height: 350px;
+
+    background: linear-gradient(rgb(20, 22, 55), rgb(20, 7, 22));
+}
+
+.feacol h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.imco {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+/* faq */
+.faq {
+    color: white;
+    background-color: black;
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+.accordion {
+    margin: 5px auto;
+    width: 100%;
+    max-width: 1000px;
+
+}
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 1px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after {
+    content: "+";
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accordion .content {
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type='radio']:checked+label+.content {
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type='radio']:checked+label::after {
+    transform: rotate(135deg);
+}
+
+
+
+
+
+@media screen and (max-width:425px) {
+    .hemail {
+        width: 85%;
+        margin-bottom: 5px;
+    }
+
+    .hbtn {
+        width: 100px;
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    .logonet {
+        height: 40px;
+        width: 100px;
+    }
+
+    .navbtn,
+    .navbtn1 {
+        /* width: 50px; */
+        font-size: 15px;
+    }
+
+    .homeh1 {
+        font-size: 30px;
+
+    }
+
+    .home {
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+    }
+
+    .accordion li label {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    label::after {
+
+        font-size: 22px;
+    }
+
+    .accordion .content {
+        font-size: 14px;
+    }
+
+    .smal {
+
+        font-size: 12px;
+    }
+
+    .foot .col {
+        flex-basis: 100%;
+
+    }
+
+    .footemail {
+        width: 20%;
+        padding: 3px;
+        font-size: 12px;
+    }
+
+    .footbtn {
+        font-size: 12px;
+        padding: 3px;
+        width: 20%;
+    }
+
+    .foot h4 {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 200;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .feacol {
+        height: 300px;
+    }
+}
+
+.imgco {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+
+
+}
+
+.imco {
+
+    height: 100px;
+    width: 100px;
+}
+
+/* --------------------footer------------- */
+.foot {
+    padding: 50px 15% 10px;
+    background-color: black;
+    color: #777;
+    border-top: #333 solid 6px;
+
+}
+
+.foot a {
+    color: #777;
+}
+
+
+.foot h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.foot .col {
+    flex-grow: 1;
+    flex-basis: 33%;
+    margin-bottom: 20px;
+}
+
+.foot .col a {
+    display: block;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.foot .row {
+    align-items: flex-start;
+}
+
+.fnavbtn1 {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 1px white;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+.footemail {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    padding: 10px;
+    width: 380px;
+    border: none;
+
+
+}
+
+.footbtn {
+    width: 120px;
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 4px;
+    color: white;
+    background-color: #db0001;
+
+}
+
+.email-sig {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.footemail:focus {
+    outline: none;
+    border: 1px solid white;
+}
+
+.footemail::placeholder {
+    color: white;
+}
