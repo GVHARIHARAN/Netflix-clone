@@ -299,6 +299,10 @@ input[type="radio"] {
 
 
 @media screen and (max-width:425px) {
+    .header {
+        height: 120vh;
+    }
+
     .hemail {
         width: 85%;
         margin-bottom: 5px;
@@ -352,8 +356,11 @@ input[type="radio"] {
     }
 
     .foot .col {
+        flex-grow: 1;
+      
         flex-basis: 100%;
-
+        align-items:self-start;
+        justify-content: flex-start;
     }
 
     .footemail {

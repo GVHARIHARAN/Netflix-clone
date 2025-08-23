@@ -309,10 +309,10 @@ const netflix = () => {
                 <button className="footbtn">Get Started</button>
                 
             </div>
-            <div className="foot">
-                <div className="row  d-flex justify-content-center">
+            <div className="foot ">
+                <div className="row ">
                     <h4>Question? call <a href="">000-800-919-1743</a></h4>
-                    <div className="col">
+                    <div className="col-sm-12 col-3 col">
                         <a href="">FAQ</a>
                         <a href="">Media Centre</a>
                         <a href="">Ways to Wacth</a>
@@ -320,14 +320,14 @@ const netflix = () => {
                         <a href="">Speed Test</a>
 
                     </div>
-                    <div className="col">
+                    <div className="col-sm-12 col-3 col">
                         <a href="">Help Centre</a>
                         <a href="">Investor Relations</a>
                         <a href="">Terms of Use</a>
                         <a href="">Corporate Information</a>
                         <a href="">Legel Noties</a>
                     </div>
-                    <div className="col">
+                    <div className="col-sm-12 col-3 col">
                         <a href="">Account</a>
                         <a href="">Jobs</a>
                         <a href="">Privacy</a>
