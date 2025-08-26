@@ -155,7 +155,7 @@ const netflix = () => {
             </div> */}
             {/* scroll img */}
             {/* <div className="wrapper"   >
-            <h1 className='textsy'> {'<'}</h1>
+           
                 <div className="silde"  >
                    
                     <img src={Vida} alt="" />
@@ -173,7 +173,7 @@ const netflix = () => {
 
 
                 </div>
-                <h1 className='textsy1'> {'>'}</h1>
+              
             </div> */}
 
             <div className="features container-fluid ">

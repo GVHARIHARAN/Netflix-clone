@@ -5,7 +5,7 @@ import One from '../src/netflix'; // Corrected import path
 // import Sum from '../src/components/navbar'; // Typo fixed: components, navbar
 
 function App() {
-
+  
 
   return (
     <BrowserRouter>
